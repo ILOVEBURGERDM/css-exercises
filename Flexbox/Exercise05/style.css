@@ -21,6 +21,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  padding: 32px;
+  gap: 20px;
 }
 
 .icon {
@@ -61,10 +64,21 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-top: 20px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.divider {
+  display: flex;
+}
+
+.header {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 22px;
 }
